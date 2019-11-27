@@ -25,7 +25,7 @@ void main()
 	epoint2_free(G);
 	mirkill(a);
 	mirkill(b);
-	getch();
+	system("pause");
 }
 
 void build_eliptik(big &a, big &b, big &n, epoint *Ppoint)
