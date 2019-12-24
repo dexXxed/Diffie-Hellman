@@ -103,15 +103,14 @@ void build_eliptik(big &a, big &b, big &n, epoint *Ppoint)
 	}
 	printf("-------------------------------------------------------------------------------\n");
 	printf("Base Point \"G\" :\n");
-	printf("Point X : \n");
+	printf("Point X : \t");
 	cotnum(x, stdout);
-	printf("Point Y : \n");
+	printf("Point Y : \t");
 	cotnum(y, stdout);
-	printf("Order of base point :\n");
+	printf("Order of base point :\t");
 	cotnum(n, stdout);
-	printf("Press any key to continue.\n");
 	printf("-------------------------------------------------------------------------------\n");
-	getch();
+	system("pause");
 	mirkill(x);
 	mirkill(y);
 }

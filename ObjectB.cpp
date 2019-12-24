@@ -32,13 +32,12 @@ CObjectB::CObjectB(epoint *G, big n)
 	tempy = mirvar(0x0);
 	epoint2_get(Pb, tempx, tempy);
 	printf("Public Key \"Pb(X,Y)\" (object B) : \n");
-	printf("Point X :\n");
+	printf("Point X :\t");
 	cotnum(tempx, stdout);
-	printf("Point Y :\n");
+	printf("Point Y :\t");
 	cotnum(tempy, stdout);
-	printf("Press any key to continue.\n");
 	printf("-------------------------------------------------------------------------------\n");
-	getch();
+	system("pause");
 	printf("\n");
 	mirkill(tempx);
 	mirkill(tempy);
@@ -54,13 +53,12 @@ void CObjectB::Build_Key_Kba(epoint *Pa)
 	tempy = mirvar(0x0);
 	epoint2_get(Kba, tempx, tempy);
 	printf("Common secret \"Kba(X,Y)\" (object B) : \n");
-	printf("Point X :\n");
+	printf("Point X :\t");
 	cotnum(tempx, stdout);
-	printf("Point Y :\n");
+	printf("Point Y :\t");
 	cotnum(tempy, stdout);
-	printf("Press any key to continue.\n");
 	printf("-------------------------------------------------------------------------------\n");
-	getch();
+	system("pause");
 	mirkill(tempx);
 	mirkill(tempy);
 }

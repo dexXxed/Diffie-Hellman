@@ -36,7 +36,6 @@ CObjectA::CObjectA(epoint *G, big n)
 	cotnum(tempx, stdout);
 	printf("Point Y :\t");
 	cotnum(tempy, stdout);
-	printf("Press any key to continue.\n");
 	printf("-------------------------------------------------------------------------------\n");
 	system("pause");
 	printf("\n");
@@ -57,7 +56,6 @@ void CObjectA::Build_Key_Kab(epoint *Pb)
 	cotnum(tempx, stdout);
 	printf("Point Y :\t");
 	cotnum(tempy, stdout);
-	printf("Press any key to continue.\n");
 	printf("-------------------------------------------------------------------------------\n");
 	system("pause");
 	mirkill(tempx);
