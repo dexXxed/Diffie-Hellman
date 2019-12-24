@@ -1,13 +1,4 @@
-// ObjectA.cpp: implementation of the CObjectA class.
-//
-//////////////////////////////////////////////////////////////////////
-
 #include "ObjectA.h"
-
-//////////////////////////////////////////////////////////////////////
-// Construction/Destruction
-//////////////////////////////////////////////////////////////////////
-
 
 CObjectA::~CObjectA()
 {
@@ -47,7 +38,7 @@ CObjectA::CObjectA(epoint *G, big n)
 	cotnum(tempy, stdout);
 	printf("Press any key to continue.\n");
 	printf("-------------------------------------------------------------------------------\n");
-	getch();
+	system("pause");
 	printf("\n");
 	mirkill(tempx);
 	mirkill(tempy);
@@ -62,13 +53,13 @@ void CObjectA::Build_Key_Kab(epoint *Pb)
 	tempy = mirvar(0x0);
 	epoint2_get(Kab, tempx, tempy);
 	printf("Common secret \"Kab(X,Y)\" (object A) : \n");
-	printf("Point X :\n");
+	printf("Point X :\t");
 	cotnum(tempx, stdout);
-	printf("Point Y :\n");
+	printf("Point Y :\t");
 	cotnum(tempy, stdout);
 	printf("Press any key to continue.\n");
 	printf("-------------------------------------------------------------------------------\n");
-	getch();
+	system("pause");
 	mirkill(tempx);
 	mirkill(tempy);
 }
