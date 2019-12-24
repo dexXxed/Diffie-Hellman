@@ -129,7 +129,7 @@
     <ClCompile Include="ObjectB.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bred.h" />
+    <ClInclude Include="dependences.h" />
     <ClInclude Include="mainapp.h" />
     <ClInclude Include="ObjectA.h" />
     <ClInclude Include="ObjectB.h" />

@@ -5,6 +5,7 @@ extern "C" FILE * __cdecl __iob_func(void) { return _iob; }
 
 
 void build_eliptik(big &a, big &b, big &n, epoint *Ppoint);
+
 void main()
 {	
 	srand(time(NULL));
