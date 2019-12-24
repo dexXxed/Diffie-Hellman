@@ -8,11 +8,6 @@
 // Construction/Destruction
 //////////////////////////////////////////////////////////////////////
 
-CObjectB::CObjectB()
-{
-
-}
-
 CObjectB::~CObjectB()
 {
 	mirkill(m_bigDb);	

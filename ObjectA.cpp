@@ -8,10 +8,6 @@
 // Construction/Destruction
 //////////////////////////////////////////////////////////////////////
 
-CObjectA::CObjectA()
-{
-	
-}
 
 CObjectA::~CObjectA()
 {
@@ -45,9 +41,9 @@ CObjectA::CObjectA(epoint *G, big n)
 	tempy = mirvar(0x0);
 	epoint2_get(Pa, tempx, tempy);
 	printf("Public Key \"Pa(X,Y)\" (object A) : \n");
-	printf("Point X :\n");
+	printf("Point X :\t");
 	cotnum(tempx, stdout);
-	printf("Point Y :\n");
+	printf("Point Y :\t");
 	cotnum(tempy, stdout);
 	printf("Press any key to continue.\n");
 	printf("-------------------------------------------------------------------------------\n");

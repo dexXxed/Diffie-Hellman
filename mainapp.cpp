@@ -1,4 +1,9 @@
 #include "mainapp.h"
+
+FILE _iob[] = { *stdin, *stdout, *stderr };
+extern "C" FILE * __cdecl __iob_func(void) { return _iob; }
+
+
 void build_eliptik(big &a, big &b, big &n, epoint *Ppoint);
 void main()
 {	
